@@ -289,6 +289,9 @@ html {
    margin-top: 63px;
 }
 
+.main-post-text {
+    margin-left: 30px;
+}
 
 .main-post-text-list {
    display: flex;
@@ -863,15 +866,24 @@ html {
 }
 
 .popup-content {
-   width: 389px;
-   padding: 0 30px;
+   width: 380px;
    background-color: #ffffff;
-   z-index: 5;
    position: relative;
-   padding-top: 15%;
-   margin-bottom: 11%;
-
 }
+
+.dropdown {
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 320px;
+    height: 478px;
+}
+
+.popup-form {
+   display: block;
+}
+
 .form-x {
    position: absolute;
    width: 18px;
